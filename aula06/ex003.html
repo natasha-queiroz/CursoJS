@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ola mundo</h1>
+    <p></p>
+
+    <script>
+    //   var n1 = Number.parseInt(prompt('Digite um numero: ')) // PARA FORÇAR A SER SOMENTE NUMERO INTEIRO
+    //   var n2 = Number.parseInt(prompt('Digite outro numero: ')) 
+
+    //   var n1 = Number.parseFloat(prompt('Digite um numero: ')) // CONVERTE PRA NUMEROS DECIMAIS E PARA FORÇAR A SER SOMENTE NUMEROS FLUTUANTES
+    //   var n2 = Number.parseFloat(prompt('Digite outro numero: '))
+
+        var n1 = Number(prompt('Digite um numero: '))   // MANIERA DE USAR PARA GERAR TANTO NUMERO INTEIROS COMO DECUMAL
+        var n2 = Number(prompt('Digite outro numero: '))  
+
+      var s = n1 + n2 
+
+      alert(`A soma entre ${n1} e ${n2} é igual a ${s}` )
+    </script>
+</body>
+</html>
