@@ -1,5 +1,7 @@
 var idade = 70
+
 console.log(`Vc tem ${idade} anos.`)
+
 if(idade <16) {
     console.log(`menor de idade`)
 } else {
